@@ -1,0 +1,501 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#all{
+	width: 80%;
+	height: 10000px;
+	margin: 0 auto; 
+}
+#menu1{
+	width: 90%;
+	height: 40px;
+	margin: 0 auto;
+	background-color: white;
+}
+#menu1>ul>li{
+	float: left;
+    list-style: none;
+    /*border-left: 1px solid green;*/
+    border-right: 1px solid grey;
+    padding-left: 10px;
+    padding-right: 20px;
+    line-height: 40px;
+    position: relative;
+}
+.sign{
+	padding-right: 40px;
+}
+#menu2{
+	width: 100%;
+	height: 80px;
+	background-color: #B71717;
+}
+.list{
+	width: 110%;
+	margin-top: 18px;
+	margin-left: -10px;
+}
+.list>ul>li{
+	float: left;
+    list-style: none;
+    border-right: 1px solid grey;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 18px;
+    position: relative; 
+    color: white;
+}
+#bar{
+	width: 88%;
+	height: 100%;
+	margin: 0 auto;
+}
+.list>ul>li:hover{
+	text-decoration: underline;
+}
+#main1{
+	width: 90%;
+	height: 310px;
+	margin: 0 auto;
+}
+.main111{
+	width: 19%;
+	height: 100%;
+	float: left;
+	padding-top: 15px;
+}
+.main111>ul>li{
+	float: left;
+    list-style: none;
+    padding-top: 10px;
+    padding-right: 5px;
+    line-height: 16px;
+    position: relative; 
+    font-size: 13px;
+}
+.border{
+	border-left: 1px solid grey;
+	padding-left: 5px;
+}
+.main112{
+	width: 40%;
+	height: 100%;
+	float: left;
+	padding-top: 15px;
+}
+.main113{
+	width: 20%;
+	height: 100%;
+	float: left;
+	padding-top: 15px;
+}
+.main113>ul>li{
+	float: left;
+    list-style: none;
+    padding-top: 10px;
+    padding-right: 5px;
+    line-height: 16px;
+    position: relative;
+    font-size: 13px; 
+}
+#menu1>ul>li:hover{
+	color: red;
+	text-decoration: underline;
+}
+.main112>ul>li{
+	float: left;
+	padding-top: 12px;
+    padding-right: 40px;	
+    position: relative;
+}
+.main111>h5{
+	padding-right: 23px; 
+	padding-top: 35px;
+}
+#main2{
+	width: 90%;
+	height: 220px;
+	margin: 0 auto;
+	clear: left;	
+}
+#main2>div{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+#main2>div>p{
+	font-size: 13px;
+	color: #525252 ;
+}
+#main2>div>ul>li{
+    float: left;
+    list-style: none;
+    padding-top: 10px;
+    padding-right: 5px;
+    line-height: 16px;
+    position: relative;
+    font-size: 13px; 
+}
+#main3{
+	width: 90%;
+	height: 90px;
+	margin: 0 auto;
+	clear: left;	
+}
+#main3>div{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+#main3>div>ul>li{
+    float: left;
+    list-style: none;
+    padding-top: 10px;
+    padding-right: 5px;
+    line-height: 16px;
+    position: relative;
+    font-size: 13px; 
+}
+#main4{
+	width: 90%;
+	height: 30px;
+	margin: 0 auto;
+	clear: left;
+}
+.text{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+.line{
+	width: 80%;
+	height: 100%;
+	float: left;
+}
+#main5{
+	width: 90%;
+	height: 170px;
+	margin: 0 auto;
+	clear: left;
+}
+#main5>div{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+#main6{
+	width: 90%;
+	height: 50px;
+	margin: 0 auto;
+	clear: left;
+}
+.text1{
+	width: 10%;
+	height: 100%;
+	float: left;
+}
+.line1{
+	width: 90%;
+	height: 100%;
+	float: left;
+}
+#main7{
+	width: 90%;
+	height: 400px;
+	margin: 0 auto;
+	clear: left;
+}
+.main71{
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+.main72{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+.main72>div{
+	width: 33%;
+	height: 50%;
+	float: left;
+}
+#main8{
+	width: 90%;
+	height: 40px;
+	margin: 0 auto;
+	clear: left;
+}
+.text2{
+	width: 15%;
+	height: 100%;
+	float: left;
+}
+.line2{
+	width: 85%;
+	height: 100%;
+	float: left;
+}
+#main9{
+	width: 90%;
+	height: 70px;
+	margin: 0 auto;
+	clear: left;
+}
+.main91{
+	width: 3%;
+	height: 100%;
+	float: left;
+}
+.main92{
+	width: 17%;
+	height: 100%;
+	float: left;
+}
+#main10{
+	width: 90%;
+	height: 40px;
+	margin: 0 auto;
+	clear: left;
+}
+.text3{
+	width: 10%;
+	height: 100%;
+	float: left;
+}
+.line3{
+	width: 85%;
+	height: 100%;
+	float: left;
+}
+.see1{
+	width: 5%;
+	height: 100%;
+	float: left;
+}
+#main11{
+	width: 90%;
+	height: 400px;
+	margin: 0 auto;
+	clear: left;
+}
+.main11a{
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+.main11b{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+.main11b>div{
+	width: 33%;
+	height: 50%;
+	float: left;
+}
+#main12{
+	width: 90%;
+	height: 40px;
+	margin: 0 auto;
+	clear: left;
+}
+.text4{
+	width: 12%;
+	height: 100%;
+	float: left;
+}
+.line4{
+	width: 83%;
+	height: 100%;
+	float: left;
+}
+.see2{
+	width: 5%;
+	height: 100%;
+	float: left;
+}
+#main13{
+	width: 90%;
+	height: 170px;
+	margin: 0 auto;
+	clear: left;
+}
+#main13>div{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+#main14{
+	width: 90%;
+	height: 50px;
+	margin: 0 auto;
+	clear: left;
+}
+.text5{
+	width: 11%;
+	height: 100%;
+	float: left;
+}
+.line5{
+	width: 89%;
+	height: 100%;
+	float: left;
+}
+#main15{
+	width: 90%;
+	height: 350px;
+	margin: 0 auto;
+	clear: left;
+}
+.main151{
+	width: 5%;
+	height: 20%;
+	float: left;
+}
+.main152{
+	width: 45%;
+	height: 20%;
+	float: left;
+}
+#main16{
+	width: 90%;
+	height: 50px;
+	margin: 0 auto;
+	clear: left;
+}
+.text6{
+	width: 17%;
+	height: 100%;
+	float: left;
+}
+.line6{
+	width: 83%;
+	height: 100%;
+	float: left;
+}
+#main17{
+	width: 90%;
+	height: 400px;
+	margin: 0 auto;
+	clear: left;
+}
+.main171{
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+.main172{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+.main172>div{
+	width: 33%;
+	height: 50%;
+	float: left;
+}
+#main18{
+	width: 90%;
+	height: 50px;
+	margin: 0 auto;
+	clear: left;
+}
+.text7{
+	width: 13%;
+	height: 100%;
+	float: left;
+}
+.line7{
+	width: 87%;
+	height: 100%;
+	float: left;
+}
+#main19{
+	width: 90%;
+	height: 100px;
+	margin: 0 auto;
+	clear: left;
+}
+#main191{
+	width: 34%;
+	height: 40px;
+	float: left;
+	border-right:0.1px solid;
+}
+#main192{
+	float: left;
+	height: 150px;
+	width: 65%;
+}
+.part1{
+	height: 100%;
+	width: 34%;
+	float: left;
+
+}
+.icon{
+	width: 50px;
+	margin-left: 30px;
+	border-right: 3px solid;
+	float: left;
+}
+.sub{
+	float: left;
+	margin-left: 10px;
+}
+.sub2{
+	clear: both;
+}
+.part2{
+	height: 100%;
+	width: 32%;
+	float: left;
+}
+#main20{
+	height: 300px;
+	width: 100%;
+	clear: left;
+	background: #4C4C4C;
+	color: white;
+}
+#footer1{
+	clear: both;
+	margin: 0 auto;
+	width: 90%;
+
+}
+#title2{
+	width: 100%;
+	clear: both;
+}
+.margin{
+	margin-top: 70px;
+}
+.bar{
+	float: left;
+	width: 15.6%;
+	border-right:1px solid;
+	margin-left: 10px;
+}
+.bar1{
+	float: left;
+	width: 15.6%;
+	margin-left: 10px;
+}
+.title{
+	height: 100px;
+	width: 100%;
+	line-height: 100px;
+}
+#title2>ul>li{
+    float: left;
+    list-style: none;
+    padding-top: 10px;
+    padding-right: 19px;
+    position: relative;
+}
+#title2>ul>li:hover{
+	text-decoration: underline;
+}
